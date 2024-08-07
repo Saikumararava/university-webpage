@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=IM+Fell+English+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300..700&display=swap');
+body {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: rgb(228, 189, 17);
+    margin: 100;
+    padding: 0;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.h1{
+    .h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 60px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+   
+    margin-bottom: 20px;
+    color: #e20606;
+}
+
+.form-group {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="course"],
+input[type="email"],
+input[type="PHONE NUMBER"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 40%;
+    padding: 12px;
+    background-color: brown;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #edd00e;
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=IM+Fell+English+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300..700&display=swap');
+  
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+nav {
+    height: 90px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px;
+    font-size: 33px;
+}
+.logo {
+    color: rgb(232, 223, 223);
+    font-size: 40px;
+    height: 10px;
+    font-weight: bold;
+    padding: auto;
+}
+.logo img {
+    height: 150px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: left;
+    padding: 10px;
+}
+
+.welcome {
+    background-color: rgb(225, 194, 17);
+    padding: 50px 0;
+}
+
+.welcome-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    padding: 18px;
+}
+
+.column-left h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.column-left p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+button {
+    padding: 1rem 3rem;
+    font-size: 20px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+button:hover {
+    background: brown;
+    color: black;
+}
+
+.column-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 3rem;
+}
+
+.welcome-image {
+    width: 100%;
+    height: auto;
+    border-radius: 90px;
+}
+
+@media screen and (max-width: 768px) {
+    .welcome-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+footer {
+    background-color: brown;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 14px;
+}
